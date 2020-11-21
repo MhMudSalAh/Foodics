@@ -1,9 +1,8 @@
 //
 //  Settings+TableView.swift
-//  Benaak
+//  Foodics
 //
-//  Created by Mohamed Elbana on 1/28/20.
-//  Copyright © 2020 Tarseya. All rights reserved.
+//  Created by MhMuD SalAh on 11/20/20.
 //
 
 import UIKit

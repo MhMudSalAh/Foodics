@@ -1,9 +1,8 @@
 //
 //  SortView.swift
-//  Benaak
+//  Foodics
 //
-//  Created by Mohamed Elbana on 1/4/2020.
-//  Copyright © 2020 Tarseya. All rights reserved.
+//  Created by MhMuD SalAh on 11/20/20.
 //
 
 import UIKit
