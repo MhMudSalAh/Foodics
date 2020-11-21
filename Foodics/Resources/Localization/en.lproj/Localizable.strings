@@ -1,0 +1,27 @@
+/*
+ Localizable.strings
+ Foodics
+ 
+ Created by MhMuD SalAh on 11/16/20.
+*/
+
+"app_name" = "Foodics";
+"foodics" = "Foodics";
+"home" = "Home";
+"categories" = "Categories";
+"next" = "Next";
+"previous" = "Previous";
+"sar" = "SAR";
+"price" = "Price";
+"settings" = "Settings";
+"language" = "Language";
+"current_language" = "English";
+"push_notifications" = "Push notifications";
+"english" = "English";
+"arabic" = "عربي";
+"change_language_message" = "Select your language";
+"cancel" = "Cancel";
+"empty_products_title" = "No products found!";
+"empty_products_description" = "No products at this time";
+"empty_categories_title" = "No categories found!";
+"empty_categories_description" = "No categories at this time.";

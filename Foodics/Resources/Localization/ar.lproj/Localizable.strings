@@ -1,0 +1,27 @@
+/* 
+ Localizable.strings
+ Foodics
+ 
+ Created by MhMuD SalAh on 11/16/20.
+*/
+
+"app_name" = "فودكس";
+"foodics" = "فودكس";
+"home" = "الرئيسية";
+"categories" = "الأقسام";
+"next" = "التالي";
+"previous" = "السابق";
+"sar" = "ريال سعودي";
+"price" = "السعر";
+"settings" = "الاعدادات";
+"language" = "اللغة";
+"current_language" = "العربية";
+"push_notifications" = "ارسال إشعارات";
+"english" = "الإنجليزية";
+"arabic" = "عربي";
+"change_language_message" = "اختيار اللغة";
+"cancel" = "إلغاء";
+"empty_products_title" = "لا يوجد منتجات!";
+"empty_products_description" = "لا يوجد منتجات بالوقت الحالي.";
+"empty_categories_title" = "لا يوجد أقسام!";
+"empty_categories_description" = "لا يوجد أقسام بالوقت الحالي.";
