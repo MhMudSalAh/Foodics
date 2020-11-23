@@ -9,7 +9,7 @@ import UIKit
 
 protocol CategoryView: class {
     var presenter: CategoryPresenterInterface! { get set }
-    var meta: Meta { get set }
+    var meta: Meta? { get set }
     var categories: [Category] { get set }
     
     func showLoading()

@@ -18,9 +18,9 @@ class CategoryController: BaseController {
     var btnPrevious = UIBarButtonItem()
     var btnSettings = UIBarButtonItem()
     
-    var meta: Meta = Meta() {
+    var meta: Meta? = Meta() {
         didSet {
-            if meta.currentPage! < meta.lastPage! {
+            if meta?.currentPage ?? 1 < meta?.lastPage ?? 1 {
                 btnNext.tintColor = .white
                 btnNext.isEnabled = true
             } else {
@@ -28,7 +28,7 @@ class CategoryController: BaseController {
                 btnNext.isEnabled = false
             }
             
-            if meta.currentPage == 1 {
+            if meta?.currentPage == 1 {
                 btnPrevious.tintColor = .lightGray
                 btnPrevious.isEnabled = false
             } else {
@@ -53,7 +53,7 @@ class CategoryController: BaseController {
 //        CategoriesManager().deleteAllCarts()
 //        MetasManager().deleteAllMetas()
         meta = MetasManager().retrieve()!
-        if meta.currentPage == nil {
+        if meta?.currentPage == nil {
             presenter.getCategories(1)
         } else {
             self.loadLocalCategories(1)
@@ -72,14 +72,14 @@ class CategoryController: BaseController {
     }
     
     @objc fileprivate func didClickNextBtn(_ sender: Any?) {
-        if meta.currentPage! < meta.lastPage! {
-            loadLocalCategories(meta.currentPage! + 1)
+        if meta?.currentPage ?? 1 < meta?.lastPage ?? 1 {
+            loadLocalCategories(meta?.currentPage ?? 1 + 1)
         }
     }
     
     @objc fileprivate func didClickPreviousBtn(_ sender: Any?) {
-        if meta.currentPage! != 1 {
-            loadLocalCategories(meta.currentPage! - 1)
+        if meta?.currentPage! != 1 {
+            loadLocalCategories(meta?.currentPage ?? 1 - 1)
         }
     }
 
